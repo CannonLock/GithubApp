@@ -26,6 +26,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add hotdog.txt
+          git add scream.txt
           git commit -m "Screaming into the void"
           git push https://x-access-token:${TOKEN}@github.com/${{ github.repository }} main
