@@ -2,6 +2,10 @@ name: Hot Dog Commit
 
 on:
   workflow_dispatch:
+  push: # you can trigger on any event you want
+    branches:
+      - main
+      - master
 
 jobs:
   hotdog:
