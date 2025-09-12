@@ -33,6 +33,7 @@ jobs:
 
       # git commands like commit work using the bot user
       - run: |
+          git remote -v
           git add .
           git commit -m "Screaming into the void"
           git push
